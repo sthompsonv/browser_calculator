@@ -1,0 +1,25 @@
+body {
+    background-color: beige;
+    
+}
+#container {
+    width: 400px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    padding: 20px;
+    background-color: aqua;
+}
+
+#displayNumbers {
+    grid-area: 1 / 1 / 2 / 5;
+    padding: 5px 10px 5px 10px;
+    text-align: right;
+    font-size: 25px;
+}
+
+#btnEql {
+    grid-area: 5 / 4 / 7 / 5;
+}
+
